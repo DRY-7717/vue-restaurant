@@ -14,15 +14,32 @@
   </section>
 
   <!-- About Start -->
-  <section class="pt-36 pb-32  font-poppins bg-center bg-cover  bg-no-repeat" style="background-image: url('src/assets/img/bg-about.png');">
-    <div class="container lg:max-w-full w-full px-16">
+  <section class=" pt-20 pb-16  lg:pt-36 lg:pb-32  font-poppins bg-center bg-cover  bg-no-repeat" style="background-image: url('src/assets/img/bg-about.png');" id="about">
+    <div class="container lg:max-w-full w-full lg:px-16">
       <div class="flex flex-wrap w-full justify-center">
-        <div class="w-full lg:w-1/2 px-11 overflow-hidden ">
-          <img src="../assets/img/people-cooking.jpg" alt="" class="w-full h-[600px] object-cover object-center rounded-xl">
+        <div class="w-full lg:w-1/2 px-7 lg:px-11 overflow-hidden ">
+          <img src="../assets/img/people-cooking.jpg" alt="" class="w-full h-96 lg:h-[600px] object-cover object-center rounded-xl">
         </div>
-        <div class="w-full lg:w-1/2 py-14 text-justify pr-11">
-          <h1 class="text-slate-800  font-bold text-5xl mb-6">Kenyangin is..?</h1>
-          <p class="text-slate-900 text-3xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad eos, tempora nesciunt repellat in eum quam qui dicta nam. Maiores eius harum ipsam exercitationem asperiores veritatis repudiandae quos fugit magnam?</p>
+        <div class="w-full lg:w-1/2 py-14 text-justify  px-7 lg:px-0 lg:pr-11">
+          <h1 class="text-slate-800  font-bold text-4xl lg:text-5xl mb-6 text-center lg:text-start">Kenyangin is..?</h1>
+          <p class="text-slate-900 text-xl bg-white  lg:bg-inherit lg:text-3xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad eos, tempora nesciunt repellat in eum quam qui dicta nam. Maiores eius harum ipsam exercitationem asperiores veritatis repudiandae quos fugit magnam?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pt-12 pb-36 font-poppins bg-cover bg-bottom" style="background-image: url('src/assets/img/bg-founder.png');">
+    <div class="container lg:max-w-full w-full px-7 lg:px-16">
+      <div class="flex w-full justify-center items-center">
+        <div class="kotak w-full lg:w-3/4  text-white text-center">
+          <h1 class=" font-lobster text-4xl lg:text-6xl mb-8">Founder of Kenyangin</h1>
+          
+          <div class="box-image w-48 h-48 overflow-hidden mx-auto rounded-full group mb-5">
+            <div class="w-full h-full bg-cover bg-center group-hover:scale-125 transition duration-500" style="background-image: url('src/assets/img/bima.jpg');"></div>
+          </div>
+
+          <h3 class="font-lobster text-4xl mb-4 lg:mb-2">Bima Arya Wicaksana</h3>
+          <h4 class="text-lg lg:text-2xl">(Web Development | Student in Pamulang University)</h4>
         </div>
       </div>
     </div>

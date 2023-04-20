@@ -70,8 +70,7 @@
               class="box-image w-48 h-48 overflow-hidden mx-auto rounded-full group mb-5"
             >
               <div
-                class="w-full h-full bg-cover bg-center group-hover:scale-125 transition duration-500"
-                style="background-image: url('src/assets/img/bima.jpg')"
+                class="w-full h-full bg-cover bg-center group-hover:scale-125 transition duration-500 profile-founder"
               ></div>
             </div>
 
@@ -99,15 +98,13 @@
 
     <!-- Contact Start -->
     <section
-      class="pt-12 pb-12 font-poppins bg-cover bg-bottom bg-fixed"
-      style="background-image: url('src/assets/img/bg-contact.png')"
+      class="pt-12 pb-12 font-poppins bg-cover bg-bottom bg-fixed section-contact"
       id="contact"
     >
       <div class="container lg:max-w-full w-full px-7 lg:px-16">
         <div class="flex w-full justify-center items-center">
           <div
-            class="kotak w-full px-7 lg:px-20 lg:w-[600px] text-white h-[800px] bg-cover bg-center"
-            style="background-image: url('src/assets/img/kertas-kuno.png')"
+            class="kotak w-full px-7 lg:px-20 lg:w-[600px] text-white h-[800px] bg-cover bg-center papper-old"
           >
             <h1
               class="mt-36 text-slate-800 text-5xl lg:text-6xl font-bold font-lobster text-center"

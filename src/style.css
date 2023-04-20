@@ -8,7 +8,15 @@ html{
 .hero-section{
   background-image: url('./assets/img/hero.jpg')
 }
-
+.section-founder{
+  background-image: url('./assets/img/bg-founder.png')
+}
+.section-bestmenu{
+  background-image: url('./assets/img/bg-menu6.png')
+}
+.section-foods{
+  background-image: url('./assets/img/bg-menu5.png')
+}
 
 .navbar-fixed {
   @apply fixed z-[9999];

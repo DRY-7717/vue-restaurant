@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-center bg-cover bg-no-repeat h-screen" style="background-image: url('src/assets/img/bg-menu5.png')">
+  <div class="bg-center bg-cover bg-no-repeat h-screen section-foods">
     <Navbar2 />
     <section
       class="section-menu pt-20 pb-16 lg:pt-24 lg:pb-32 font-poppins bg-center bg-cover bg-no-repeat"

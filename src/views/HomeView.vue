@@ -56,8 +56,8 @@
     </section>
 
     <section
-      class="pt-12 pb-36 font-poppins bg-cover bg-bottom bg-fixed"
-      style="background-image: url('src/assets/img/bg-founder.png')"
+      class="pt-12 pb-36 font-poppins bg-cover bg-bottom bg-fixed section-founder"
+      
     >
       <div class="container lg:max-w-full w-full px-7 lg:px-16">
         <div class="flex w-full justify-center items-center">
@@ -89,8 +89,7 @@
 
     <!-- The best menu Start -->
     <section
-      class="pt-20 pb-16 lg:pt-24 lg:pb-32 font-poppins bg-center bg-cover bg-no-repeat bg-fixed"
-      style="background-image: url('src/assets/img/bg-menu6.png')"
+      class="pt-20 pb-16 lg:pt-24 lg:pb-32 font-poppins bg-center bg-cover bg-no-repeat bg-fixed section-bestmenu"
       id="menu"
     >
       <BestFood :bestproduct="product.list" />

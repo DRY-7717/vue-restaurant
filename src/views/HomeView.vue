@@ -12,7 +12,7 @@
         <h1 class="text-5xl lg:text-7xl mb-3">Welcome To The</h1>
         <h1 class="text-7xl lg:text-9xl mb-7">Kenyangin</h1>
         <h4 class="text-2xl lg:text-5xl mb-11">
-          Silahkan pilih makanan yang kamu inginkan sesukamu
+          Silahkan pilih makanan yang kamu inginkan 
         </h4>
         <router-link
           to="/foods"

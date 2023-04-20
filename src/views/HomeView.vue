@@ -4,7 +4,7 @@
     <section
       id="home"
       class="pt-36 pb-32 h-screen bg-center bg-cover bg-no-repeat bg-slate-600 bg-fixed bg-blend-multiply font-poppins"
-      style="background-image: url('./assets/img/hero.jpg')"
+      style="background-image: url('assets/img/hero.jpg')"
     >
       <div
         class="container max-w-full lg:max-w-6xl text-white mx-auto text-center font-lobster mt-20 lg:mt-7 px-6"
@@ -12,7 +12,7 @@
         <h1 class="text-5xl lg:text-7xl mb-3">Welcome To The</h1>
         <h1 class="text-7xl lg:text-9xl mb-7">Kenyangin</h1>
         <h4 class="text-2xl lg:text-5xl mb-11">
-          Silahkan pilih makanan yang kamu inginkan sesuka taik
+          Silahkan pilih makanan yang kamu inginkan sesuka test
         </h4>
         <router-link
           to="/foods"

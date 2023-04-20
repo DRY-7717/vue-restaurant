@@ -5,6 +5,10 @@
 html{
   @apply scroll-smooth
 }
+.hero-section{
+  background-image: url('./assets/img/hero.jpg')
+}
+
 
 .navbar-fixed {
   @apply fixed z-[9999];

@@ -1,26 +1,30 @@
 <template>
   <div>
     <div
-      class="navsecond hidden lg:block w-full bg-transparent z-50 absolute top-0 left-0 items-center transition duration-200"
+      class="hidden lg:block w-full bg-transparent z-50 absolute top-0 left-0 items-center transition duration-200"
+      style="background: rgba(0, 0, 0, 0.5)"
     >
       <div class="container max-w-full">
         <div class="w-full flex justify-center items-center py-4">
           <ul
             class="flex px-3 w-1/2 justify-around items-center text-white font-poppins"
           >
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
+            <li><a href="/#home">Home</a></li>
+            <li><a href="/#about">About</a></li>
             <li><router-link to="/foods">Foods</router-link></li>
             <li>
               <router-link to="/" class="font-lobster text-3xl title__nav"
                 >Kenyangin!!!</router-link
               >
             </li>
-            <li><a href="#menu">Best Menu</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="/#menu">Menu</a></li>
+            <li><a href="/#contact">Contact</a></li>
             <li>
               <router-link to="/cart">Cart</router-link>
-              <span class="cart-box bg-white text-slate-700 ml-1 w-[23px] h-full inline-block text-center text-sm rounded-md">{{ product.list.length }}</span>
+              <span
+                class="cart-box bg-white text-slate-700 ml-1 w-[23px] h-full inline-block text-center text-sm rounded-md"
+                >{{ product.list.length }}</span
+              >
             </li>
           </ul>
         </div>
@@ -111,6 +115,12 @@ const product = reactive({
   list: [],
 });
 
+const clickburger = () => {
+  const hamburger = document.querySelector("header .hamburger");
+  hamburger.classList.toggle("hamburger-active");
+  open.value = !open.value;
+};
+
 onMounted(() => {
   axios
     .get("http://localhost:3000/keranjangs")
@@ -121,25 +131,5 @@ onMounted(() => {
     .catch(function (error) {
       console.log(error);
     });
-
-  const header = document.querySelector("header");
-  const navSecond = document.querySelector(".navsecond");
-  const fixnav = header.offsetTop;
-  const fixnavSecond = navSecond.offsetTop;
-  window.onscroll = () => {
-    if (window.pageYOffset > fixnav || window.pageYOffset > fixnavSecond) {
-      header.classList.add("navbar-fixed");
-      navSecond.classList.add("navbar-fixed");
-    } else {
-      header.classList.remove("navbar-fixed");
-      navSecond.classList.remove("navbar-fixed");
-    }
-  };
 });
-
-const clickburger = () => {
-  const hamburger = document.querySelector("header .hamburger");
-  hamburger.classList.toggle("hamburger-active");
-  open.value = !open.value;
-};
 </script>

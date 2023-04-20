@@ -4,7 +4,7 @@
     <section
       id="home"
       class="pt-36 pb-32 h-screen bg-center bg-cover bg-no-repeat bg-slate-600 bg-fixed bg-blend-multiply font-poppins"
-      style="background-image: url('src/assets/img/hero.jpg')"
+      style="background-image: url('../src/assets/img/hero.jpg')"
     >
       <div
         class="container max-w-full lg:max-w-6xl text-white mx-auto text-center font-lobster mt-20 lg:mt-7 px-6"

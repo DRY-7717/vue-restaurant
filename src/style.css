@@ -26,6 +26,9 @@ html{
 .profile-founder{
   background-image: url('./assets/img/bima.jpg')
 }
+.section-about{
+  background-image: url('./assets/img/bg-about.png')
+}
 .navbar-fixed {
   @apply fixed z-[9999];
   background-color: rgba(0, 0, 0, .5);

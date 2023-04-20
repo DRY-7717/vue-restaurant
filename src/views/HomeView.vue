@@ -23,8 +23,7 @@
 
     <!-- About Start -->
     <section
-      class="pt-20 pb-16 lg:pt-36 lg:pb-32 font-poppins bg-center bg-cover bg-no-repeat bg-fixed"
-      style="background-image: url('src/assets/img/bg-about.png')"
+      class="pt-20 pb-16 lg:pt-36 lg:pb-32 font-poppins bg-center bg-cover bg-no-repeat bg-fixed section-about"
       id="about"
     >
       <div class="container lg:max-w-full w-full lg:px-16">

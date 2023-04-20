@@ -154,7 +154,7 @@ const product = reactive({
 
 onMounted(() => {
   axios
-    .get("http://localhost:3000/best-products")
+    .get("https://kenyanginrestaurant.netlify.app/best-products")
     .then(function (response) {
       const { data } = response;
       product.list = data;

@@ -23,7 +23,7 @@
               <router-link to="/cart">Cart</router-link>
               <span
                 class="cart-box bg-white text-slate-700 ml-1 w-[23px] h-full inline-block text-center text-sm rounded-md"
-                >{{ product.list.length }}</span
+                >{{ updatelistorder ? updatelistorder.length : product.list.length }}</span
               >
             </li>
           </ul>
@@ -31,8 +31,8 @@
       </div>
     </div>
     <header
-      class="lg:hidden bg-transparent absolute top-0 left-0 w-full flex items-center transition duration-200"
-    >
+      class="lg:hidden  absolute top-0 left-0 w-full flex items-center transition duration-200 "
+    style="background: rgba(0, 0, 0, 0.5)">
       <div class="container">
         <div class="w-full flex justify-between items-center">
           <div class="logo px-7">
@@ -108,6 +108,11 @@
 
 <script setup>
 import { onMounted, ref, reactive } from "vue";
+
+const props = defineProps({
+  updatelistorder: Object,
+});
+
 
 let open = ref(false);
 

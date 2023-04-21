@@ -8,7 +8,7 @@
     >
       <div class="container lg:max-w-full w-full lg:px-16">
         <h1
-          class="text-center text-5xl lg:text-6xl font-bold text-slate-800 mb-7"
+          class="text-center text-5xl lg:text-6xl font-bold text-slate-800 mb-7 mt-11 lg:mt-0"
         >
           Food Detail
         </h1>
